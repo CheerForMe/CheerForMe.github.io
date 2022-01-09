@@ -1,6 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'zh-cn'
 title = "Zac's Blog"
+publishDir = "docs"
 
 # 主题相关 ↓
 theme = "hugo-theme-cleanwhite"
