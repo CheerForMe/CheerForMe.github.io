@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tests on Zac Blog</title>
+    <link>http://example.org/tests/</link>
+    <description>Recent content in Tests on Zac Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 08 Jan 2022 20:15:59 +0800</lastBuildDate><atom:link href="http://example.org/tests/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello</title>
+      <link>http://example.org/tests/hello/</link>
+      <pubDate>Sat, 08 Jan 2022 20:15:59 +0800</pubDate>
+      
+      <guid>http://example.org/tests/hello/</guid>
+      <description>Hello World 11112222</description>
+    </item>
+    
+  </channel>
+</rss>
