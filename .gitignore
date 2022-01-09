@@ -1,2 +1,4 @@
 node_modules
 themes
+themes/*
+hugo-theme-cleanwhite
