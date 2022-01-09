@@ -55,14 +55,5 @@ He loves open source and has been contributing to a variety of open source proje
       <description>Machine learning学习笔记 Coursera 在线课程 Machine learning 笔记讲师: 吴恩达(Andrew Ng) 课程地址：https://www.</description>
     </item>
     
-    <item>
-      <title>Posts Archive</title>
-      <link>http://example.org/top/archive/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/top/archive/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
