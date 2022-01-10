@@ -1,4 +1,4 @@
-baseURL = '/blog'
+baseURL = '/'
 languageCode = 'zh-cn'
 title = "Zac's Blog"
 publishDir = "docs"
