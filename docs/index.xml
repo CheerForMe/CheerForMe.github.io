@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zac&#39;s Blog</title>
-    <link>/blog/</link>
+    <link>/</link>
     <description>Recent content on Zac&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 09 Jan 2022 21:43:00 +0800</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jan 2022 21:43:00 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test3</title>
-      <link>/blog/post/test3/</link>
+      <link>/post/test3/</link>
       <pubDate>Sun, 09 Jan 2022 21:43:00 +0800</pubDate>
       
-      <guid>/blog/post/test3/</guid>
+      <guid>/post/test3/</guid>
       <description>Test 3 testtttttt</description>
     </item>
     
     <item>
       <title>Welcome to Zac&#39;s Blog</title>
-      <link>/blog/post/hello/</link>
+      <link>/post/hello/</link>
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>/blog/post/hello/</guid>
+      <guid>/post/hello/</guid>
       <description> “Yeah It&amp;rsquo;s on. ”
  Hello World! </description>
     </item>
     
     <item>
       <title></title>
-      <link>/blog/search/placeholder/</link>
+      <link>/search/placeholder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/blog/search/placeholder/</guid>
+      <guid>/search/placeholder/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/blog/top/about/</link>
+      <link>/top/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/blog/top/about/</guid>
+      <guid>/top/about/</guid>
       <description>Huabing Zhao is an ICT veteran with a passion for open source. He has a solid experience in the telecommunication and information technology industry for more than 17 years.
 Throughout his career, he has built a number of large-scale, cross-country OSS/BSS platforms/systems and operation tools, most of them are still running in productions.
 He loves open source and has been contributing to a variety of open source projects, including Istio(Service Mesh https://istio.</description>
@@ -48,10 +48,10 @@ He loves open source and has been contributing to a variety of open source proje
     
     <item>
       <title></title>
-      <link>/blog/top/books/</link>
+      <link>/top/books/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/blog/top/books/</guid>
+      <guid>/top/books/</guid>
       <description>Machine learning学习笔记 Coursera 在线课程 Machine learning 笔记讲师: 吴恩达(Andrew Ng) 课程地址：https://www.</description>
     </item>
     

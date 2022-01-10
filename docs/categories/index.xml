@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Zac&#39;s Blog</title>
-    <link>/blog/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Zac&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 09 Jan 2022 21:43:00 +0800</lastBuildDate><atom:link href="/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jan 2022 21:43:00 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tech</title>
-      <link>/blog/categories/tech/</link>
+      <link>/categories/tech/</link>
       <pubDate>Sun, 09 Jan 2022 21:43:00 +0800</pubDate>
       
-      <guid>/blog/categories/tech/</guid>
+      <guid>/categories/tech/</guid>
       <description></description>
     </item>
     
