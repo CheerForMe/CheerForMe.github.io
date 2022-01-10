@@ -6,7 +6,7 @@ publishDir = "docs"
 # 主题相关 ↓
 theme = "hugo-theme-cleanwhite"
 preserveTaxonomyNames = true
-paginate = 10 #frontpage pagination
+paginate = 12 #frontpage pagination
 
 [frontmatter]
   date = ['date', 'publishDate', 'lastmod']
