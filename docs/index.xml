@@ -6,24 +6,14 @@
     <description>Recent content on Zac&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 09 Jan 2022 21:43:00 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jan 2022 22:55:16 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test3</title>
-      <link>/post/test3/</link>
-      <pubDate>Sun, 09 Jan 2022 21:43:00 +0800</pubDate>
+      <title>First</title>
+      <link>/post/first/</link>
+      <pubDate>Tue, 11 Jan 2022 22:55:16 +0800</pubDate>
       
-      <guid>/post/test3/</guid>
-      <description>Test 3 testtttttt</description>
-    </item>
-    
-    <item>
-      <title>Welcome to Zac&#39;s Blog</title>
-      <link>/post/hello/</link>
-      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/post/hello/</guid>
-      <description> “Yeah It&amp;rsquo;s on. ”
- Hello World! </description>
+      <guid>/post/first/</guid>
+      <description>hello world</description>
     </item>
     
     <item>
