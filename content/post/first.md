@@ -5,8 +5,8 @@ subtitle:    "写于博客搭建成功之时"
 description: ""
 author: Zac
 image:       ""
-tags:        [""]
-categories:  ["Essay" ]
+tags:        []
+categories:  ["Essay"]
 ---
 
 `hello world`
