@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zac&#39;s Blog</title>
-    <link>/</link>
-    <description>Recent content on Zac&#39;s Blog</description>
+    <title>Git on Zac&#39;s Blog</title>
+    <link>/tags/git/</link>
+    <description>Recent content in Git on Zac&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 12 Jan 2022 22:37:08 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jan 2022 22:37:08 +0800</lastBuildDate><atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Worktree</title>
       <link>/post/git-worktree/</link>
@@ -23,44 +23,6 @@ Git Worktree 能做什么？ 它可以让一个 git 仓库拥有多个工作目�
 &amp;lt;source_branch&amp;gt;：源分支
 查看已存在的工作区 git worktree list 或 git worktree list --porcelain 删除工作区 首先，在工作区内的工作完成后，将该工作目录（指文件夹）删除；然后，执行下方的指令：
 git worktree prune </description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>/post/first/</link>
-      <pubDate>Tue, 11 Jan 2022 22:55:16 +0800</pubDate>
-      
-      <guid>/post/first/</guid>
-      <description>hello world</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/search/placeholder/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/search/placeholder/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/top/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/top/about/</guid>
-      <description>Huabing Zhao is an ICT veteran with a passion for open source. He has a solid experience in the telecommunication and information technology industry for more than 17 years.
-Throughout his career, he has built a number of large-scale, cross-country OSS/BSS platforms/systems and operation tools, most of them are still running in productions.
-He loves open source and has been contributing to a variety of open source projects, including Istio(Service Mesh https://istio.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/top/books/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/top/books/</guid>
-      <description>Machine learning学习笔记 Coursera 在线课程 Machine learning 笔记讲师: 吴恩达(Andrew Ng) 课程地址：https://www.</description>
     </item>
     
   </channel>

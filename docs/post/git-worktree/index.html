@@ -15,9 +15,9 @@
     
 
     
-    <meta name="title" content="" />
-    <meta property="og:title" content="" />
-    <meta property="twitter:title" content="" />
+    <meta name="title" content="Git Worktree" />
+    <meta property="og:title" content="Git Worktree" />
+    <meta property="twitter:title" content="Git Worktree" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="李晓峰, lxf, lixiaofeng,">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>李晓峰的博客 | Zac&#39;s Blog</title>
+    <title>Git Worktree-李晓峰的博客 | Zac&#39;s Blog</title>
 
-    <link rel="canonical" href="/search/placeholder/">
+    <link rel="canonical" href="/post/git-worktree/">
 
     <link rel="stylesheet" href="/css/iDisqus.min.css"/>
 
@@ -155,7 +155,7 @@
 
 <style type="text/css">
     header.intro-header {
-        background-image: url('/img/home-bg.jpg')
+        background-image: url('/img/git-worktree.jpg')
     }
 </style>
 
@@ -167,17 +167,21 @@
                 <div class="post-heading">
                     <div class="tags">
                         
+                        <a class="tag" href="/tags/git" title="Git">
+                            Git
+                        </a>
+                        
                     </div>
-                    <h1></h1>
-                    <h2 class="subheading"></h2>
+                    <h1>Git Worktree</h1>
+                    <h2 class="subheading">不要再疯狂切分支啦</h2>
                     <span class="meta">
                         
                             Posted by 
                             
-                                    Zac&#39;s Blog
+                                Zac
                              
                             on 
-                            Monday, January 1, 0001
+                            Wednesday, January 12, 2022
                             
                             
                             
@@ -203,12 +207,38 @@
                 post-container">
 
                 
-                
+                <p>在工作中，经常需要在开发需求的同时，还要兼顾修复 Bug，所以需要频繁的来回切换分支。</p>
+<p>稍微懒人一点的办法，就是将仓库多克隆几个，比如 A 和 B，A 用于开发需求，B 用于 bugfix。这样虽然可以解决频繁切换分支的痛苦，但是还是显得有些「笨重」。比如 A 推送的代码，还需要在 B 中拉取。所以，要隆重推荐 Git 的一个指令：<code>git worktree</code></p>
+<h2 id="git-worktree-能做什么">Git Worktree 能做什么？</h2>
+<p>它可以让一个 git 仓库拥有多个工作目录。它实际创建了一个连接到仓库的额外的工作目录。每一个创建出的工作目录都是一个和常规 git 仓库结构一样的一个伪仓库。它的<code>.git</code>文件实际上是引用了主仓库的<code>.git</code>文件。</p>
+<p>也可以简单粗暴的理解为：通过指定的分支，创建一个新的工作目录，且这个目录能够和主仓库互相同步状态。在主仓库中拉取的代码，新的工作目录中可以直接看得到；新的工作目录提交、合并、推送的代码，在主仓库也无需拉取。</p>
+<h2 id="怎么用">怎么用？</h2>
+<h3 id="为已存在的分支建立工作目录">为已存在的分支建立工作目录</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git worktree add &lt;folder_path&gt; &lt;source_branch&gt;
+</code></pre></div><p>这种方式将不会再创建新的分支，而是为指定的分支创建工作目录</p>
+<h3 id="从指定的源分支迁出新分支并创建工作目录">从指定的源分支迁出新分支，并创建工作目录</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git worktree add -b &lt;new_branch_name&gt; &lt;folder_path&gt; &lt;source_branch&gt;
+</code></pre></div><p><code>&lt;new_branch_name&gt;</code>：新的分支名（基于 &lt;source_branch&gt;）</p>
+<p><code>&lt;folder_path&gt;</code>：指定新的工作区的目录位置</p>
+<p><code>&lt;source_branch&gt;</code>：源分支</p>
+<h3 id="查看已存在的工作区">查看已存在的工作区</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git worktree list
+或
+git worktree list --porcelain
+</code></pre></div><h3 id="删除工作区">删除工作区</h3>
+<p>首先，在工作区内的工作完成后，将该工作目录（指文件夹）删除；然后，执行下方的指令：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git worktree prune
+</code></pre></div>
 
                 
 
                 <hr>
                 <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/first/" data-toggle="tooltip" data-placement="top" title="First">&larr;
+                            Previous Post</a>
+                    </li>
                     
                     
                 </ul>
