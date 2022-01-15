@@ -2,7 +2,7 @@
 title: "Git Worktree"
 date: 2022-01-12T22:37:08+08:00
 subtitle:    "不要再疯狂切分支啦"
-description: ""
+description: "git worktree 的使用方式"
 author: Zac
 image:       "/img/git-worktree.jpg"
 tags:        ["Git"]
